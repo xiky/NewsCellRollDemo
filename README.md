@@ -1,3 +1,3 @@
 # NewsCellRollDemo
 
-![](./Demo.png)
+![](./NewsRoll.gif)
