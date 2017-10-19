@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DC481BB1F972B8D0024BD9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC481BA1F972B8D0024BD9A /* AppDelegate.m */; };
+		0DC481BE1F972B8D0024BD9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC481BD1F972B8D0024BD9A /* ViewController.m */; };
+		0DC481C11F972B8D0024BD9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC481BF1F972B8D0024BD9A /* Main.storyboard */; };
+		0DC481C31F972B8D0024BD9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC481C21F972B8D0024BD9A /* Assets.xcassets */; };
+		0DC481C61F972B8D0024BD9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC481C41F972B8D0024BD9A /* LaunchScreen.storyboard */; };
+		0DC481C91F972B8D0024BD9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC481C81F972B8D0024BD9A /* main.m */; };
+		0DC481D31F972B8D0024BD9A /* JKNewsCellDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC481D21F972B8D0024BD9A /* JKNewsCellDemoTests.m */; };
+		0DC481DE1F972B8D0024BD9A /* JKNewsCellDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC481DD1F972B8D0024BD9A /* JKNewsCellDemoUITests.m */; };
+		0DC481ED1F9732950024BD9A /* JKNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC481EC1F9732950024BD9A /* JKNewsCell.m */; };
+		0DC481F01F9737140024BD9A /* JKNewsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC481EF1F9737140024BD9A /* JKNewsView.m */; };
+		0DC481F31F9737BE0024BD9A /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC481F11F9737BE0024BD9A /* UIView+Additions.m */; };
+		0DC481F61F9738EB0024BD9A /* JKNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC481F51F9738EB0024BD9A /* JKNewsModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DC481CF1F972B8D0024BD9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DC481AE1F972B8D0024BD9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DC481B51F972B8D0024BD9A;
+			remoteInfo = JKNewsCellDemo;
+		};
+		0DC481DA1F972B8D0024BD9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DC481AE1F972B8D0024BD9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DC481B51F972B8D0024BD9A;
+			remoteInfo = JKNewsCellDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DC481B61F972B8D0024BD9A /* JKNewsCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKNewsCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC481B91F972B8D0024BD9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0DC481BA1F972B8D0024BD9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0DC481BC1F972B8D0024BD9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0DC481BD1F972B8D0024BD9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0DC481C01F972B8D0024BD9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DC481C21F972B8D0024BD9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DC481C51F972B8D0024BD9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DC481C71F972B8D0024BD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC481C81F972B8D0024BD9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DC481CE1F972B8D0024BD9A /* JKNewsCellDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKNewsCellDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC481D21F972B8D0024BD9A /* JKNewsCellDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKNewsCellDemoTests.m; sourceTree = "<group>"; };
+		0DC481D41F972B8D0024BD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC481D91F972B8D0024BD9A /* JKNewsCellDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKNewsCellDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DC481DD1F972B8D0024BD9A /* JKNewsCellDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKNewsCellDemoUITests.m; sourceTree = "<group>"; };
+		0DC481DF1F972B8D0024BD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC481EB1F9732950024BD9A /* JKNewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKNewsCell.h; sourceTree = "<group>"; };
+		0DC481EC1F9732950024BD9A /* JKNewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKNewsCell.m; sourceTree = "<group>"; };
+		0DC481EE1F9737140024BD9A /* JKNewsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKNewsView.h; sourceTree = "<group>"; };
+		0DC481EF1F9737140024BD9A /* JKNewsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKNewsView.m; sourceTree = "<group>"; };
+		0DC481F11F9737BE0024BD9A /* UIView+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		0DC481F21F9737BE0024BD9A /* UIView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		0DC481F41F9738EB0024BD9A /* JKNewsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKNewsModel.h; sourceTree = "<group>"; };
+		0DC481F51F9738EB0024BD9A /* JKNewsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKNewsModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DC481B31F972B8D0024BD9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC481CB1F972B8D0024BD9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC481D61F972B8D0024BD9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DC481AD1F972B8D0024BD9A = {
+			isa = PBXGroup;
+			children = (
+				0DC481B81F972B8D0024BD9A /* JKNewsCellDemo */,
+				0DC481D11F972B8D0024BD9A /* JKNewsCellDemoTests */,
+				0DC481DC1F972B8D0024BD9A /* JKNewsCellDemoUITests */,
+				0DC481B71F972B8D0024BD9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DC481B71F972B8D0024BD9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DC481B61F972B8D0024BD9A /* JKNewsCellDemo.app */,
+				0DC481CE1F972B8D0024BD9A /* JKNewsCellDemoTests.xctest */,
+				0DC481D91F972B8D0024BD9A /* JKNewsCellDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DC481B81F972B8D0024BD9A /* JKNewsCellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0DC481B91F972B8D0024BD9A /* AppDelegate.h */,
+				0DC481BA1F972B8D0024BD9A /* AppDelegate.m */,
+				0DC481BC1F972B8D0024BD9A /* ViewController.h */,
+				0DC481BD1F972B8D0024BD9A /* ViewController.m */,
+				0DC481BF1F972B8D0024BD9A /* Main.storyboard */,
+				0DC481C21F972B8D0024BD9A /* Assets.xcassets */,
+				0DC481C41F972B8D0024BD9A /* LaunchScreen.storyboard */,
+				0DC481C71F972B8D0024BD9A /* Info.plist */,
+				0DC481C81F972B8D0024BD9A /* main.m */,
+				0DC481EB1F9732950024BD9A /* JKNewsCell.h */,
+				0DC481EC1F9732950024BD9A /* JKNewsCell.m */,
+				0DC481EE1F9737140024BD9A /* JKNewsView.h */,
+				0DC481EF1F9737140024BD9A /* JKNewsView.m */,
+				0DC481F21F9737BE0024BD9A /* UIView+Additions.h */,
+				0DC481F11F9737BE0024BD9A /* UIView+Additions.m */,
+				0DC481F41F9738EB0024BD9A /* JKNewsModel.h */,
+				0DC481F51F9738EB0024BD9A /* JKNewsModel.m */,
+			);
+			path = JKNewsCellDemo;
+			sourceTree = "<group>";
+		};
+		0DC481D11F972B8D0024BD9A /* JKNewsCellDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DC481D21F972B8D0024BD9A /* JKNewsCellDemoTests.m */,
+				0DC481D41F972B8D0024BD9A /* Info.plist */,
+			);
+			path = JKNewsCellDemoTests;
+			sourceTree = "<group>";
+		};
+		0DC481DC1F972B8D0024BD9A /* JKNewsCellDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DC481DD1F972B8D0024BD9A /* JKNewsCellDemoUITests.m */,
+				0DC481DF1F972B8D0024BD9A /* Info.plist */,
+			);
+			path = JKNewsCellDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DC481B51F972B8D0024BD9A /* JKNewsCellDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC481E21F972B8D0024BD9A /* Build configuration list for PBXNativeTarget "JKNewsCellDemo" */;
+			buildPhases = (
+				0DC481B21F972B8D0024BD9A /* Sources */,
+				0DC481B31F972B8D0024BD9A /* Frameworks */,
+				0DC481B41F972B8D0024BD9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKNewsCellDemo;
+			productName = JKNewsCellDemo;
+			productReference = 0DC481B61F972B8D0024BD9A /* JKNewsCellDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DC481CD1F972B8D0024BD9A /* JKNewsCellDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC481E51F972B8D0024BD9A /* Build configuration list for PBXNativeTarget "JKNewsCellDemoTests" */;
+			buildPhases = (
+				0DC481CA1F972B8D0024BD9A /* Sources */,
+				0DC481CB1F972B8D0024BD9A /* Frameworks */,
+				0DC481CC1F972B8D0024BD9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DC481D01F972B8D0024BD9A /* PBXTargetDependency */,
+			);
+			name = JKNewsCellDemoTests;
+			productName = JKNewsCellDemoTests;
+			productReference = 0DC481CE1F972B8D0024BD9A /* JKNewsCellDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DC481D81F972B8D0024BD9A /* JKNewsCellDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DC481E81F972B8D0024BD9A /* Build configuration list for PBXNativeTarget "JKNewsCellDemoUITests" */;
+			buildPhases = (
+				0DC481D51F972B8D0024BD9A /* Sources */,
+				0DC481D61F972B8D0024BD9A /* Frameworks */,
+				0DC481D71F972B8D0024BD9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DC481DB1F972B8D0024BD9A /* PBXTargetDependency */,
+			);
+			name = JKNewsCellDemoUITests;
+			productName = JKNewsCellDemoUITests;
+			productReference = 0DC481D91F972B8D0024BD9A /* JKNewsCellDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DC481AE1F972B8D0024BD9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = lqb;
+				TargetAttributes = {
+					0DC481B51F972B8D0024BD9A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					0DC481CD1F972B8D0024BD9A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0DC481B51F972B8D0024BD9A;
+					};
+					0DC481D81F972B8D0024BD9A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0DC481B51F972B8D0024BD9A;
+					};
+				};
+			};
+			buildConfigurationList = 0DC481B11F972B8D0024BD9A /* Build configuration list for PBXProject "JKNewsCellDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DC481AD1F972B8D0024BD9A;
+			productRefGroup = 0DC481B71F972B8D0024BD9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DC481B51F972B8D0024BD9A /* JKNewsCellDemo */,
+				0DC481CD1F972B8D0024BD9A /* JKNewsCellDemoTests */,
+				0DC481D81F972B8D0024BD9A /* JKNewsCellDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DC481B41F972B8D0024BD9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC481C61F972B8D0024BD9A /* LaunchScreen.storyboard in Resources */,
+				0DC481C31F972B8D0024BD9A /* Assets.xcassets in Resources */,
+				0DC481C11F972B8D0024BD9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC481CC1F972B8D0024BD9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC481D71F972B8D0024BD9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DC481B21F972B8D0024BD9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC481F31F9737BE0024BD9A /* UIView+Additions.m in Sources */,
+				0DC481BE1F972B8D0024BD9A /* ViewController.m in Sources */,
+				0DC481ED1F9732950024BD9A /* JKNewsCell.m in Sources */,
+				0DC481C91F972B8D0024BD9A /* main.m in Sources */,
+				0DC481F61F9738EB0024BD9A /* JKNewsModel.m in Sources */,
+				0DC481BB1F972B8D0024BD9A /* AppDelegate.m in Sources */,
+				0DC481F01F9737140024BD9A /* JKNewsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC481CA1F972B8D0024BD9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC481D31F972B8D0024BD9A /* JKNewsCellDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DC481D51F972B8D0024BD9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC481DE1F972B8D0024BD9A /* JKNewsCellDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DC481D01F972B8D0024BD9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DC481B51F972B8D0024BD9A /* JKNewsCellDemo */;
+			targetProxy = 0DC481CF1F972B8D0024BD9A /* PBXContainerItemProxy */;
+		};
+		0DC481DB1F972B8D0024BD9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DC481B51F972B8D0024BD9A /* JKNewsCellDemo */;
+			targetProxy = 0DC481DA1F972B8D0024BD9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DC481BF1F972B8D0024BD9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DC481C01F972B8D0024BD9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DC481C41F972B8D0024BD9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DC481C51F972B8D0024BD9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DC481E01F972B8D0024BD9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0DC481E11F972B8D0024BD9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DC481E31F972B8D0024BD9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT956AN94V;
+				INFOPLIST_FILE = JKNewsCellDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lqb.com.JKNewsCellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DC481E41F972B8D0024BD9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT956AN94V;
+				INFOPLIST_FILE = JKNewsCellDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lqb.com.JKNewsCellDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DC481E61F972B8D0024BD9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT956AN94V;
+				INFOPLIST_FILE = JKNewsCellDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lqb.com.JKNewsCellDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKNewsCellDemo.app/JKNewsCellDemo";
+			};
+			name = Debug;
+		};
+		0DC481E71F972B8D0024BD9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT956AN94V;
+				INFOPLIST_FILE = JKNewsCellDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lqb.com.JKNewsCellDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKNewsCellDemo.app/JKNewsCellDemo";
+			};
+			name = Release;
+		};
+		0DC481E91F972B8D0024BD9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT956AN94V;
+				INFOPLIST_FILE = JKNewsCellDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lqb.com.JKNewsCellDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKNewsCellDemo;
+			};
+			name = Debug;
+		};
+		0DC481EA1F972B8D0024BD9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT956AN94V;
+				INFOPLIST_FILE = JKNewsCellDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lqb.com.JKNewsCellDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKNewsCellDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DC481B11F972B8D0024BD9A /* Build configuration list for PBXProject "JKNewsCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC481E01F972B8D0024BD9A /* Debug */,
+				0DC481E11F972B8D0024BD9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DC481E21F972B8D0024BD9A /* Build configuration list for PBXNativeTarget "JKNewsCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC481E31F972B8D0024BD9A /* Debug */,
+				0DC481E41F972B8D0024BD9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DC481E51F972B8D0024BD9A /* Build configuration list for PBXNativeTarget "JKNewsCellDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC481E61F972B8D0024BD9A /* Debug */,
+				0DC481E71F972B8D0024BD9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DC481E81F972B8D0024BD9A /* Build configuration list for PBXNativeTarget "JKNewsCellDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DC481E91F972B8D0024BD9A /* Debug */,
+				0DC481EA1F972B8D0024BD9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DC481AE1F972B8D0024BD9A /* Project object */;
+}
